@@ -46,13 +46,6 @@ namespace xadrez_console
             catch (TabuleiroException e) {
                 Console.WriteLine(e.Message);
             }
-
-            Console.ReadLine();
-            /*PosicaoXadrez pos = new PosicaoXadrez('c', 7);
-
-            Console.WriteLine(pos);
-
-            Console.WriteLine(pos.toPosicao());*/
             Console.ReadLine();
         }
     }
